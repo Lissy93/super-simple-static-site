@@ -1,0 +1,8 @@
+extend layout
+block content
+  .container
+    .main-content
+      for paragraph in content
+        h2=paragraph.title
+        p=paragraph.text
+        br

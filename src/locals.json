@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "Super Simple Static Site",
+    "description": "A website template using CoffeeScript, SASS and Jade.",
+    "authors":[
+      {"name": "Alicia Sykes", "url":"http://aliciasykes.com" },
+      {"name": "John Smith", "url":"https://en.wikipedia.org/wiki/John_Smith" }
+    ]
+  },
+
+  "navbar":{
+    "icon":"/resources/github_icon.png",
+    "links":[
+      {"text": "Home", "url": "/"},
+      {"text": "Source Code", "url": "https://github.com/Lissy93/super-simple-static-site"},
+      {"text": "Sample Tab 1", "url": "#"},
+      {"text": "Sample Tab 2", "url": "#"}
+    ]
+  },
+
+  "content":[
+    {"title":"Sub Heading 1", "text":"Lorem Ipsum"},
+    {"title":"Sub Heading 2", "text":"More text"},
+    {"title":"Sub Heading 3", "text":"another paragraph"}
+  ]
+
+}

@@ -1,0 +1,7 @@
+footer
+  p <b>#{app.title}</b> - #{app.description}
+  p.pull-right
+    | &copy; &nbsp;
+    for author in app.authors
+      b: a(href='#{author.url}') #{author.name} , &nbsp;
+    | #{(new Date()).getFullYear()}

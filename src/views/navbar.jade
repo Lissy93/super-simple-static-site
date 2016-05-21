@@ -1,0 +1,9 @@
+nav
+  img.pull-left(src='#{navbar.icon}' alt='#{navbar.icon}')
+  a(href='/')
+    h1=app.title
+  div.pull-right
+    ul
+      for link in navbar.links
+        li
+          a(href='#{link.url}') #{link.text}

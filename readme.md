@@ -20,13 +20,11 @@ and navigate into the directory `cd super-simple-static-site`
 
 2. Install Dependencies `npm install` 
 
-3. Install gulp global (if not already done) `npm install gulp -g`
+3. Build the app `npm run build`
 
-4. Build the app `npm run build`
+4.a. Run the app on an node server, run `npm start` and visit http://localhost:8080 
 
-5.a. Run the app on an node server, run `npm start` and visit http://localhost:8080 
-
-5.b. OR to just run the app locally open production/index.html in your web browser
+4.b. OR to just run the app locally open production/index.html in your web browser
 
 
 ## Modifying

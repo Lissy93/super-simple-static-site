@@ -1,4 +1,6 @@
 # Super Simple Static Site
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Lissy93/super-simple-static-site.svg)](https://greenkeeper.io/)
 > A template for the structure of a web site, including an easily
  customisable gulp setup, which by default processes CoffeeScript, SASS and Jade.
  
